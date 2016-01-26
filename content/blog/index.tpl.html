@@ -1,0 +1,14 @@
+<div class="introduction">
+{{.HtmlContent}}
+</div>
+
+<div class="blogs">
+<h2>Grokking Blog</h2>
+
+{{range dir "."}}
+  <h3>{{.Title}}</h3>
+  <div>{{.Short}}</div>
+{{else}}
+  <div>No blog!</div>
+{{end}}
+</div>

@@ -1,0 +1,12 @@
+<div class="introduction">
+{{.HtmlContent}}
+</div>
+
+<div class="community">
+{{range dir "."}}
+  <div>{{.Title}}</div>
+  <div>{{.Short}}</div>
+{{else}}
+  <div>No activity!</div>
+{{end}}
+</div>

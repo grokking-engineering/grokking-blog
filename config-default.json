@@ -1,0 +1,8 @@
+{
+  "server": {
+    "LISTEN_ADDR": ":8080",
+    "CONTENT_DIR": "content",
+    "STATIC_DIR": "static",
+    "DEVELOPMENT": "1"
+  }
+}
